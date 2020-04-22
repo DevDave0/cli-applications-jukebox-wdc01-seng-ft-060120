@@ -32,6 +32,7 @@ def play(songs)
       result = "Playing #{song}"
     end 
   end 
+  result
 end 
 
 
