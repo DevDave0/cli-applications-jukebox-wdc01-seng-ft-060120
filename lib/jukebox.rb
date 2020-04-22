@@ -54,11 +54,11 @@ def run(songs)
       puts "Please enter a command:"
       user_input = gets.strip
     elsif user_input == "play"
-      play
+      play(songs)
       puts "Please enter a command:"
       user_input = gets.strip
     elsif user_input == "list"
-      list
+      list(songs)
       puts "Please enter a command:"
       user_input = gets.strip
     else 
