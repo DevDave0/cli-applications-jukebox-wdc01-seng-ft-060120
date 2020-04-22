@@ -1,5 +1,7 @@
 # Add your code here
 
+require 'pry'
+
 songs = [
   "Phoenix - 1901",
   "Tokyo Police Club - Wait Up",
@@ -31,6 +33,8 @@ def play(songs)
     end 
   end 
 end 
+
+binding.pry 
 
 def list(songs)
  songs.each_with_index do |song, index|
