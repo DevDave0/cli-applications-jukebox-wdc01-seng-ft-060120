@@ -31,6 +31,8 @@ def play(songs)
     if input == song || input.to_i == (index + 1)
       puts "Playing #{song}"
     end 
+  else 
+    
   end 
 end 
 
