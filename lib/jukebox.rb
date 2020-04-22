@@ -33,7 +33,6 @@ def play(songs)
   end 
 end 
 
-binding.pry
 
 def list(songs)
  songs.each_with_index do |song, index|
