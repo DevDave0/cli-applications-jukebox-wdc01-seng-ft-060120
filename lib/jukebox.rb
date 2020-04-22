@@ -56,20 +56,11 @@ def run
       play(songs)
     when "list"
       list(songs)
-      
-    
-  if user_input == "list"
-    list 
-    elsif user_input == "play"
-    play
-    elsif user_input == "help"
-    help 
-    elsif user_input == "exit"
+    else 
+      puts "Invalid input, please try again"
+    end 
     exit_jukebox
-  else 
-    puts "Invalid input, please try again"
   end 
-    
   
 end 
   
