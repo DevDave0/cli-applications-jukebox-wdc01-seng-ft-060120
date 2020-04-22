@@ -50,6 +50,13 @@ def run
   user_input = gets.strip
   while user_input != "exit"
     case user_input
+    when "help"
+      help 
+    when "play"
+      play(songs)
+    when "list"
+      list(songs)
+      
     
   if user_input == "list"
     list 
