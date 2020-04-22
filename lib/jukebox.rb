@@ -53,9 +53,9 @@ def run
     when "help"
       help 
     when "play"
-      play(songs)
+      play
     when "list"
-      list(songs)
+      list
     else 
       puts "Invalid input, please try again"
     end 
