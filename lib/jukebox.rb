@@ -31,6 +31,8 @@ def play(songs)
       puts "Playing #{song}"
     end 
     if input !==song || input.to_i !== (index + 1)
+      puts "Invalid input, please try again"
+    end 
   end 
 end 
 
