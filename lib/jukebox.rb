@@ -31,6 +31,7 @@ def play(songs)
     end 
   end 
   if input == "list"
+    play(songs)
 end 
 
 
