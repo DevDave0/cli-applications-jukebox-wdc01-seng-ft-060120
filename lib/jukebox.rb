@@ -29,11 +29,11 @@ def play(songs)
   while counter < songs.length do 
     if input == songs[counter] || input == counter + 1
       puts "Playing #{song}"
-else
-  puts "Invalid input, please try again"
-end 
-counter +=1 
-end 
+      else
+        puts "Invalid input, please try again"
+      end 
+    counter +=1 
+  end 
 end 
 
 counter = 0
