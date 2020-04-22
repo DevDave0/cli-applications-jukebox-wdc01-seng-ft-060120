@@ -36,16 +36,6 @@ def play(songs)
   end 
 end 
 
-counter = 0
-while counter < songs.length do 
-if input == songs[counter] || input == counter + 1
-  puts "Playing #{song}"
-else
-  puts "Invalid input, please try again"
-end 
-counter +=1 
-end 
-
 
 def list(songs)
  songs.each_with_index do |song, index|
