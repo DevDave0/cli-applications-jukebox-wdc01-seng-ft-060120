@@ -32,15 +32,6 @@ def play(songs)
     end 
   end 
   
-  if result.include?("Playing")
-    puts result
-  elsif user_response == "list"
-    list(songs)
-    play(songs)
-  else
-    puts "Invalid input, please try again"
-  end
-  
 end 
 
 
