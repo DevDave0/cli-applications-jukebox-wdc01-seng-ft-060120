@@ -25,6 +25,7 @@ def play
 end 
 
 def list(song)
+  puts ""
   
 end 
 
