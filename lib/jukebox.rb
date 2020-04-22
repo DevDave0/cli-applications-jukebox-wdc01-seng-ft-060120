@@ -27,13 +27,9 @@ def play(songs)
   input = gets.strip
   
   songs.each_with_index do |song, index|
-    case 
-    when input.to_i == (index + 1)
-      puts "Playing #{song}"
-    when input.to_s == song
+    if input.to_i == (index + 1) || input == song
       puts "Playing #{song}"
     end 
-    
   end 
   puts "Invalid input, please try again"
 end 
