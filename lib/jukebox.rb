@@ -48,7 +48,7 @@ end
 def run 
   puts "Please enter a command:"
   user_input = gets.strip
-  if user_input != "exit"
+  while user_input != "exit"
     case user_input
     
   if user_input == "list"
