@@ -52,12 +52,20 @@ def run
     case user_input
     when "help"
       help 
+      puts "Please enter a command:"
+      user_input = gets.strip
     when "play"
-      play
+      play(songs)
+      puts "Please enter a command:"
+      user_input = gets.strip
     when "list"
-      list
+      list(songs)
+      puts "Please enter a command:"
+      user_input = gets.strip
     else 
       puts "Invalid input, please try again"
+      puts "Please enter a command:"
+      user_input = gets.strip
     end 
     exit_jukebox
   end 
