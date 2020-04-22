@@ -30,7 +30,7 @@ def play(songs)
     case 
     when input.to_i == (index + 1)
       puts "Playing #{song}"
-    when input == song
+    when input.to_s == song
       puts "Playing #{song}"
     end 
     
