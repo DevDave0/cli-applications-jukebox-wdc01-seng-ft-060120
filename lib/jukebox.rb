@@ -30,6 +30,8 @@ def list(songs)
  end 
 end 
 
+list(songs)
+
 def exit_jukebox 
   
 end 
