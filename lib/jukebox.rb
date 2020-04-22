@@ -24,8 +24,8 @@ def play
 
 end 
 
-def list(song)
- song.each do |song, index|
+def list(songs)
+ songs.each do |song, index|
    puts "#{index+1}. #{song}"
  end 
 end 
