@@ -27,7 +27,7 @@ def play(songs)
   input = gets.strip
   counter = 0
   while counter < songs.length do 
-    if input == songs[counter] || input.to_i == (counter + 1)
+    if input.to_i == (counter + 1)
       puts "Playing #{song}"
       else
         puts "Invalid input, please try again"
