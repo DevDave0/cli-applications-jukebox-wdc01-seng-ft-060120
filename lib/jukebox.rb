@@ -26,10 +26,12 @@ def play(songs)
   
   
   songs.each_with_index do |song, index|
-    if input == ((index + 1) || song)
+    if input == (index + 1) || song
       puts "Playing #{song}"
+      elsif input == songs[index]
     end 
   end 
+
 end 
 
 def list(songs)
