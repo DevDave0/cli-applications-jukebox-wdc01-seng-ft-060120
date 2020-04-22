@@ -26,6 +26,7 @@ def play(songs)
   
   songs.each_with_index do |song, index|
     if input == (index + 1) || input == song
+      
 
 end 
 
