@@ -49,16 +49,15 @@ def run
   puts "Please enter a command:"
   user_input = gets.strip
   while user_input != "exit"
-    case user_input
-    when "help"
+    if user_input == "help"
       help 
       puts "Please enter a command:"
       user_input = gets.strip
-    when "play"
+    elsif user_input == "play"
       play(songs)
       puts "Please enter a command:"
       user_input = gets.strip
-    when "list"
+    elsif user_input == "list"
       list(songs)
       puts "Please enter a command:"
       user_input = gets.strip
